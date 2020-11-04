@@ -2,6 +2,11 @@
   "name": "githubapp",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.13.1",
+    "npm": "6.14.8",
+    "yarn": "1.22.5"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -23,7 +28,6 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
       "not op_mini all"
     ],
     "development": [
